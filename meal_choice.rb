@@ -8,6 +8,7 @@ def breakfast(food = "frosted flake")
   puts "breakfast is the best time for #{food}."
 end
 
+
 def lunch(food_2 = "grilled cheese")
   puts "lunch is the best time for #{food_2}."
 end
@@ -23,9 +24,9 @@ puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
-breakfast
-lunch
-dinner
+breakfast("pancakes")
+lunch("peanut butter")
+dinner("broccoli")
 
 # Call your methods without any arguments here
 puts snacks
